@@ -1,0 +1,7 @@
+.footnote {
+  font-size: 11px;
+  color: var(--faint);
+  margin-top: 10px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}

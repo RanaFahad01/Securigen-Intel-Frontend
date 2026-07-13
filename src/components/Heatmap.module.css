@@ -1,0 +1,46 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.row {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.rowLabel {
+  width: 32px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.cell {
+  flex: 1;
+  height: 18px;
+  border-radius: 2px;
+}
+
+.xAxis {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.xAxisSpacer {
+  width: 32px;
+  flex-shrink: 0;
+}
+
+.xAxisLabels {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--faint);
+}

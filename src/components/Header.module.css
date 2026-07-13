@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 18px 28px 16px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.health {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--faint);
+}
+
+.dotUp {
+  background: var(--green);
+}
+
+.dotDown {
+  background: var(--red);
+}
+
+.source {
+  font-family: var(--mono);
+  font-size: 12px;
+}

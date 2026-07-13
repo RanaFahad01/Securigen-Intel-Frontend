@@ -1,0 +1,46 @@
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  min-width: 0;
+}
+
+.panelFlush {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.panelHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.panelHeaderFlush {
+  display: flex;
+  align-items: baseline;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.panelTitle {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.panelMeta {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--faint);
+}
+
+.metaInline {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--faint);
+}

@@ -1,0 +1,61 @@
+:root {
+  --bg: #0b0e11;
+  --panel: #11151a;
+  --panel-2: #151b22;
+  --panel-deep: #0d1116;
+  --border: #1e242c;
+  --border-2: #242b34;
+  --border-hover: #3a4654;
+  --row-border: #171c23;
+  --row-hover: #141922;
+  --text: #e6eaf0;
+  --text-2: #c6cdd6;
+  --muted: #8b95a3;
+  --faint: #4e5866;
+  --accent: #00e5ff;
+  --accent-bright: #7eefff;
+  --green: #3e9b5f;
+  --red: #c05b55;
+  --amber: #c08a3e;
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-bright);
+  text-decoration: underline;
+}
+
+select:focus,
+button:focus {
+  outline: 1px solid var(--accent);
+  outline-offset: 1px;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}

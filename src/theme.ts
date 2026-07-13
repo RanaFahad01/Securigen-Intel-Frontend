@@ -1,5 +1,8 @@
 import { createTheme } from "@mantine/core";
 
 export const theme = createTheme({
-  /* Put your mantine theme override here */
+  fontFamily: "'IBM Plex Sans', Helvetica, Arial, sans-serif",
+  fontFamilyMonospace: "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace",
+  primaryColor: "cyan",
+  defaultRadius: 4,
 });

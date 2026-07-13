@@ -1,0 +1,111 @@
+.headerRow {
+  display: grid;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.sortButton {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.sortButton:hover {
+  color: var(--text);
+}
+
+.row {
+  display: grid;
+  gap: 12px;
+  align-items: center;
+  padding: 7px 16px;
+  border-bottom: 1px solid var(--row-border);
+  font-size: 12px;
+}
+
+.row:hover {
+  background: var(--row-hover);
+}
+
+.mono {
+  font-family: var(--mono);
+}
+
+.rank {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--faint);
+}
+
+.textRight {
+  text-align: right;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badgeRow {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  background: var(--panel-2);
+  border: 1px solid var(--border-2);
+  border-radius: 2px;
+  padding: 1px 5px;
+}
+
+.footerRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+}
+
+.pageButton {
+  background: var(--panel);
+  border: 1px solid var(--border-2);
+  border-radius: 4px;
+  color: var(--text-2);
+  font-family: inherit;
+  font-size: 12px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.pageButton:hover:not(:disabled) {
+  border-color: var(--border-hover);
+}
+
+.pageButton:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.pageInfo {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}

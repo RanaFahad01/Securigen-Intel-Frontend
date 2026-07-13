@@ -1,0 +1,86 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 14px 16px;
+}
+
+.barLabel {
+  height: 10px;
+  background: var(--panel-2);
+  border-radius: 3px;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.barValue {
+  height: 22px;
+  background: var(--panel-2);
+  border-radius: 3px;
+  margin-top: 12px;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.chartsRow {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 16px;
+}
+
+.chartCard {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  height: 300px;
+}
+
+.chartTitle {
+  height: 10px;
+  background: var(--panel-2);
+  border-radius: 3px;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.chartBody {
+  height: 220px;
+  background: var(--panel-deep);
+  border-radius: 3px;
+  margin-top: 20px;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.wideCard {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  height: 280px;
+}
+
+.wideBody {
+  height: 200px;
+  background: var(--panel-deep);
+  border-radius: 3px;
+  margin-top: 20px;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.status {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--faint);
+  text-align: center;
+  padding: 8px;
+}

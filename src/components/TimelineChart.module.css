@@ -1,0 +1,64 @@
+.legend {
+  margin-left: auto;
+  display: flex;
+  gap: 14px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.swatch {
+  width: 10px;
+  height: 2px;
+  display: inline-block;
+}
+
+.swatchDashed {
+  width: 10px;
+  height: 0;
+  display: inline-block;
+  border-bottom: 2px dashed var(--green);
+}
+
+.body {
+  display: flex;
+  gap: 8px;
+}
+
+.yAxis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 220px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--faint);
+  text-align: right;
+  flex-shrink: 0;
+  padding: 2px 0;
+}
+
+.chartCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.svg {
+  width: 100%;
+  height: 220px;
+  display: block;
+}
+
+.xAxis {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--faint);
+  margin-top: 6px;
+}
